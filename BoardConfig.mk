@@ -180,6 +180,7 @@ USE_MINIKIN := true
 EXTENDED_FONT_FOOTPRINT := true
 
 # Nfc
+TARGET_USES_OS_NFC := true
 BOARD_NFC_CHIPSET := pn544
 
 # Power
