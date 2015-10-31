@@ -88,7 +88,8 @@ PRODUCT_COPY_FILES += \
     kernel/lge/msm8226/drivers/staging/prima/firmware_bin/WCNSS_cfg.dat:system/etc/firmware/wlan/prima/WCNSS_cfg.dat \
     kernel/lge/msm8226/drivers/staging/prima/firmware_bin/WCNSS_qcom_cfg.ini:system/etc/firmware/wlan/prima/WCNSS_qcom_cfg.ini \
     kernel/lge/msm8226/drivers/staging/prima/firmware_bin/WCNSS_qcom_cfg.ini:system/etc/wifi/WCNSS_qcom_cfg.ini \
-    device/lge/x5/prebuilt/etc/init.d/10lightfixer:system/etc/init.d/10lightfixer
+    device/lge/x5/prebuilt/etc/init.d/10lightfixer:system/etc/init.d/10lightfixer \
+    device/lge/x5/prebuilt/etc/apns-conf.xml:system/etc/apns-conf.xml
 
 # Ramdisk
 PRODUCT_COPY_FILES += \
