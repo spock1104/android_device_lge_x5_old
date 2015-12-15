@@ -357,6 +357,9 @@ PRODUCT_PACKAGES += \
 
 NFCEE_ACCESS_PATH := device/lge/x5/prebuilt/etc/nfcee_access.xml
 
+PRODUCT_COPY_FILES += \
+    $(NFCEE_ACCESS_PATH):system/etc/nfcee_access.xml
+
 # QC time services
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.timed.enable=true
