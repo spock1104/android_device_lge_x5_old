@@ -64,6 +64,7 @@ TARGET_BOOTLOADER_BOARD_NAME := x5
 
 # Kernel image
 BOARD_KERNEL_SEPARATED_DT := true
+BOARD_CUSTOM_BOOTIMG := true
 BOARD_CUSTOM_BOOTIMG_MK := device/lge/x5/mkbootimg.mk
 TARGET_KERNEL_SOURCE := kernel/lge/msm8226
 TARGET_KERNEL_CONFIG := cm11_msm8226_defconfig
